@@ -29,7 +29,7 @@
 .line {
     position: relative;
     display: flex;
-    width: 73.4%;
+    width: 80%;
     left: 6px;
     margin: 0 auto;
     border: 1px solid #f2f2f2;
@@ -89,7 +89,7 @@
 .introduction {
     background-color: rgba(201, 140, 60, 0.144);
     display: flex;
-    justify-content: space-between;
+    /* justify-content: ; */
     margin-top: 20px;
 }
 
