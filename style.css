@@ -13,6 +13,9 @@
 .heading {
     text-align: center;
     font-size: 22px;
+    
+    /* text-decoration: underline; */
+    /* text-underline-offset: 4px; */
 }
 
 .links {
@@ -26,6 +29,83 @@
     padding: 10px;
     font-size: 20px;
     color: black;
+}
+
+.line{
+    position: relative;
+    display: flex;
+    width: 73.4%;
+    left: 6px;
+    margin: 0 auto;
+    border: 1px solid #f2f2f2;
+}
+
+
+
+
+
+.link-names a {
+    position: relative; /* Required for the pseudo-element positioning */
+    padding: 10px;
+    font-size: 20px;
+    color: black;
+    text-decoration: none; /* No underline by default */
+}
+
+.link-names a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px; /* Adjust as needed */
+    width: 0;
+    height: 2px; /* Thickness of the underline */
+    background-color: black; /* Color of the underline */
+    z-index: 5;
+    transition: width 0.3s ease-in; /* Animation for the underline */
+}
+
+.link-names a:hover::after,
+.link-names a:focus::after,
+.link-names a:active::after {
+    width: 100%; /* Full width on hover, focus, or click */
+}
+
+.link-names a:visited {
+    color: black;
+    /* No underline unless hovered, focused, or clicked */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#intro-heading {
+    margin-top: 20px;
+    position: relative;
+    width: 350px;
+    padding-left: 40px;
+    top: 20px;
+    display: flex;
+    align-items: center;
+    border-top-right-radius: 40px;
+    background-color: rgba(201, 140, 60, 0.144);
+    font-size: 34px;
+    padding-top: 20px;
+    margin-bottom: 20px;
 }
 
 
