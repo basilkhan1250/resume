@@ -6,16 +6,11 @@
 .navbar {
     padding-top: 20px;
     font-family: 'Times New Roman', Times, serif;
-    /* background-color: rgb(73, 73, 238);
-    color: white; */
 }
 
 .heading {
     text-align: center;
     font-size: 22px;
-    
-    /* text-decoration: underline; */
-    /* text-underline-offset: 4px; */
 }
 
 .links {
@@ -31,7 +26,7 @@
     color: black;
 }
 
-.line{
+.line {
     position: relative;
     display: flex;
     width: 73.4%;
@@ -45,55 +40,37 @@
 
 
 .link-names a {
-    position: relative; /* Required for the pseudo-element positioning */
+    position: relative;
     padding: 10px;
     font-size: 20px;
     color: black;
-    text-decoration: none; /* No underline by default */
+    text-decoration: none;
 }
 
 .link-names a::after {
     content: '';
     position: absolute;
     left: 0;
-    bottom: -5px; /* Adjust as needed */
+    bottom: -5px;
     width: 0;
-    height: 2px; /* Thickness of the underline */
-    background-color: black; /* Color of the underline */
+    height: 2px;
+    background-color: black;
     z-index: 5;
-    transition: width 0.3s ease-in; /* Animation for the underline */
+    transition: width 0.3s ease-in;
 }
 
 .link-names a:hover::after,
 .link-names a:focus::after,
 .link-names a:active::after {
-    width: 100%; /* Full width on hover, focus, or click */
+    width: 100%;
 }
 
 .link-names a:visited {
     color: black;
-    /* No underline unless hovered, focused, or clicked */
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #intro-heading {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-top: 20px;
     position: relative;
     width: 350px;
@@ -140,4 +117,27 @@
     position: relative;
     top: 300px;
     right: 240px;
+}
+
+
+
+#video-intro {
+    font-weight: 900;
+    padding: 30px;
+    position: relative;
+    right: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 32px;
+}
+
+
+.video-Into {
+    display: flex;
+    background-color: rgb(245, 233, 218);
+}
+
+.video-frame {
+    padding: 20px;
+    margin: 0 auto;
+    /* width: 100px; */
 }
