@@ -4,7 +4,7 @@
 }
 
 .navbar {
-    padding-top: 20px;
+    padding-top: 10px;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -89,7 +89,8 @@
 .introduction {
     background-color: rgba(201, 140, 60, 0.144);
     display: flex;
-    /* justify-content: ; */
+    justify-content: space-between;
+    align-items: center;
     margin-top: 20px;
 }
 
@@ -104,17 +105,26 @@
     right: 4%;
 }
 
+.intro-text {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* border: 1px solid black; */
+    width: 700px;
+    margin: 20px;
+    padding: 20px;
+}
+
+
 .heading-two {
     font-weight: 500;
     font-size: 60px;
-    margin: 0;
-    padding-left: 40px;
-    padding-top: 80px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 40%;
+    /* margin: 0; */
+    /* padding-left: 40px; */
+    /* padding-top: 80px; */
 }
 
 .intro-para {
-    position: relative;
+    /* position: relative; */
     top: 300px;
     right: 230px;
     font-size: 16px;
