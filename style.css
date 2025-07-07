@@ -1,12 +1,15 @@
+/* Reset */
 * {
     box-sizing: border-box;
     margin: 0;
+    /* padding: 0px 10px; */
 }
 
 body {
     background-color: #0f0f0f;
-    color: #ffc107 ;
-
+    color: #f1f1f1;
+    /* padding: 0px 10px; */
+    /* margin: 0px 10px; */
 }
 
 .navbar {
@@ -32,8 +35,8 @@ body {
 .link-names {
     padding: 10px;
     font-size: 20px;
-    /* color: black; */
     color: #f1f1f1;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 .line {
@@ -44,12 +47,7 @@ body {
     width: 60%;
     left: 6px;
     margin: 0 auto;
-    /* border: 1px solid #f2f2f2; */
-    /* border: 1px solid #202020 ; */
 }
-
-
-
 
 .link-names a {
     position: relative;
@@ -75,14 +73,13 @@ body {
 .link-names a:focus::after,
 .link-names a:active::after {
     width: 100%;
-    /* color: #00bcd4; */
 }
 
 .link-names a:visited {
     color: #f1f1f1;
 }
 
-#intro-heading {
+/* #intro-heading {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-top: 20px;
     position: relative;
@@ -92,19 +89,20 @@ body {
     display: flex;
     align-items: center;
     border-top-right-radius: 40px;
-    background-color: rgba(196, 183, 167, 0.144);
+    background-color: #202020;
     font-size: 34px;
     padding-top: 20px;
     margin-bottom: 20px;
-}
-
+    color: #00bcd4;
+} */
 
 .introduction {
-    background-color: rgba(201, 140, 60, 0.144);
+    background-color: #202020;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 40px;
+    color: #f1f1f1;
 }
 
 .main {
@@ -115,39 +113,36 @@ body {
     height: 450px;
     margin-left: 50px;
     position: relative;
-    right: 4%;
+    right: 3%;
 }
 
 .intro-text {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    /* border: 1px solid black; */
     width: 700px;
     margin: 20px;
     padding: 20px;
-}
+    /* background-color: #181818; */
+    color: #f1f1f1;
 
+}
 
 .heading-two {
     font-weight: 500;
     font-size: 60px;
     width: 40%;
-    /* margin: 0; */
-    /* padding-left: 40px; */
-    /* padding-top: 80px; */
+    color: #00bcd4;
 }
 
 .intro-para {
-    /* position: relative; */
     top: 300px;
     right: 230px;
-    font-size: 16px;
+    font-size: 18px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f1f1f1;
 }
 
-
-
 #video-intro {
-    color: #333;
+    color: #00bcd4;
     font-weight: 900;
     padding-top: 40px;
     padding-bottom: 20px;
@@ -157,23 +152,19 @@ body {
     word-spacing: 6px;
 }
 
-
 .video-Into {
     display: flex;
-    /* background-color: rgb(245, 233, 218); */
 }
 
 .video-frame {
     padding: 20px;
     margin: 0 auto;
-    /* width: 100px; */
 }
 
-
-
 .qualification-sec {
-    /* background-color: rgb(245, 233, 218); */
-    padding: 20px;
+    color: #f1f1f1;
+    /* border: 1px solid red; */
+    padding: 40px;
 }
 
 #qualification {
@@ -181,49 +172,33 @@ body {
     padding-top: 10px;
     padding-bottom: 20px;
     font-size: 34px;
-    color: #333;
-    padding-left: 20px;
+    color: #00bcd4;
+    /* padding-left: 20px; */
 }
-
 
 .qualifies {
     position: relative;
-    left: 20px;
-    width: 97%;
+    width: 100%;
     border-collapse: collapse;
-    /* margin: 20px 0; */
 }
 
 .qualifies th,
 .qualifies td {
-    border: 1px solid black;
+    border: 1px solid #202020;
     padding: 12px 15px;
     text-align: left;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
+    color: #f1f1f1;
 }
 
 .qualifies th {
-    background-color: #f2f2f2;
+    background-color: #181818;
     font-weight: bold;
 }
 
 .qualifies tr:nth-child(even) {
-    background-color: #f9f9f9;
+    background-color: #202020;
 }
-
-/* 
-.skills h2 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding-top: 40px;
-    padding-bottom: 20px;
-    font-size: 34px;
-}
-.skills{
-    padding-left: 40px;
-} */
-
-
 
 .skills {
     padding-left: 40px;
@@ -231,7 +206,7 @@ body {
     padding: 20px;
     border-radius: 10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
+    color: #f1f1f1;
 }
 
 .skills h2 {
@@ -239,7 +214,7 @@ body {
     padding-top: 10px;
     padding-bottom: 20px;
     font-size: 34px;
-    color: #333;
+    color: #00bcd4;
     padding-left: 30px;
 }
 
@@ -251,7 +226,7 @@ body {
 .skills ul li {
     font-size: 20px;
     margin: 10px 0;
-    color: #333;
+    color: #f1f1f1;
     position: relative;
     padding-left: 20px;
 }
@@ -260,7 +235,7 @@ body {
     content: "•";
     position: absolute;
     left: 0;
-    color: #ff7a00;
+    color: #00bcd4;
     font-size: 24px;
 }
 
@@ -271,20 +246,18 @@ body {
 
 .skills ul ul li::before {
     content: "–";
-    color: #ff7a00;
+    color: #00bcd4;
     font-size: 18px;
 }
 
 .skills ul li:hover {
-    color: #ff7a00;
+    color: #00bcd4;
     cursor: pointer;
 }
 
 .skills ul li:hover::before {
-    color: #333;
+    color: #f1f1f1;
 }
-
-
 
 .experience {
     position: relative;
@@ -292,11 +265,11 @@ body {
     padding-top: 40px;
     margin-right: 200px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
+    color: #f1f1f1;
 }
 
 #experience {
-    color: #333;
+    color: #00bcd4;
     padding-bottom: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 34px;
@@ -313,11 +286,10 @@ h3 {
 }
 
 .personal-Info {
-    color: #333;
+    color: #00bcd4;
     padding-bottom: 20px;
     font-size: 34px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
 }
 
 .personal-info {
@@ -325,17 +297,18 @@ h3 {
     border-collapse: collapse;
     margin: 20px 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f1f1f1;
 }
 
 .personal-info th,
 .personal-info td {
-    border: 1px solid black;
+    border: 1px solid #202020;
     padding: 12px;
     text-align: left;
 }
 
 .personal-info th {
-    background-color: #f2f2f2;
+    background-color: #181818;
     font-weight: bold;
     font-size: 20px;
 }
